@@ -27,23 +27,25 @@ This project of mine has one goal: to list and describe as many distros that I p
 
 - [Arch Linux](https://archlinux.org/):
 
-    > ```
-    > name: arch linux
-    > package manager: pacman
-    > release system: rolling-release
-    > default environment: none, diy
-    > user-experience required: advanced
-    > open-source: yes
-    > anti-features?: none
-    > ```
+    ```
+    name: arch linux
+    package manager: pacman
+    release system: rolling-release
+    default environment: none, diy
+    user-experience required: advanced
+    open-source: yes
+    anti-features?: none
+    ```
 
     - [Manjaro](https://manjaro.org)
         
-        > ```
-        > name: manjaro
-        > package manager: pacman
-        > release system: special rolling-release
-        > default environment: gnome / kde / xfce
-        > user-experience required: intermediate
-        > open-source: yes
-        > anti-features?: no
+        ```
+        name: manjaro
+        package manager: pacman
+        release system: special rolling-release
+        default environment: gnome / kde / xfce
+        user-experience required: intermediate
+        open-source: yes
+        anti-features?: no
+        ```
+        > :information_source: **INFO**: While Manjaro uses Arch rolling-release system, it is often delayed by another 2 weeks, for "stability purposes". For a true rolling-release experience, please disable it or use another distro.
