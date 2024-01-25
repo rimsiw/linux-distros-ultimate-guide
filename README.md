@@ -47,5 +47,6 @@ This project of mine has one goal: to list and describe as many distros that I p
         user-experience required: intermediate
         open-source: yes
         anti-features?: no
+        pre-installed software: pamac
         ```
         > :information_source: **INFO**: While Manjaro uses Arch rolling-release system, it is often delayed by another 2 weeks, for "stability purposes". For a true rolling-release experience, please disable it or use another distro.
