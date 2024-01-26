@@ -43,10 +43,58 @@ This project of mine has one goal: to list and describe as many distros that I p
         name: manjaro
         package manager: pacman
         release system: special rolling-release
-        default environment: gnome / kde / xfce
+        default environment: gnome / kde plasma / xfce
         user-experience required: intermediate
         open-source: yes
         anti-features?: no
         pre-installed software: pamac
         ```
         > :information_source: **INFO**: While Manjaro uses Arch rolling-release system, it is often delayed by another 2 weeks, for "stability purposes". For a true rolling-release experience, please disable it or use another distro.
+
+    - [EndeavourOS](https://endeavouros.com/)
+        
+        ```
+        name: endeavouros
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: many
+        user-experience required: intermediate
+        open-source: yes
+        anti-features?: no
+        pre-installed software: pamac
+        ```
+
+        > :information_source: **INFO**: Possible default enviroments include: xfce, kde plasma, gnome, mate, cinnamon, budgie, lxqt, lxde, i3
+    
+    - [SteamOS 3.0+](https://store.steampowered.com/steamos/download?ver=steamdeck)
+
+        ```
+        name: steamos
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: kde plasma
+        user-experience required: beginner
+        open-source: partly
+        anti-features?: support of non-free software
+        pre-installed software: steam, kde discover
+        ```
+
+        > :information_source: **INFO**: While SteamOS version 3.0 and later are based on Arch, the previous versions are based on Debian
+        
+        > :information_source: **INFO**: While possible for instaling it on your daily drive machine, it is not advised due to system focus on gaming on Steam Deck, as well as limited out-of-the-box features
+
+        > :warning: **WARNING**: While system, and steam client are open-source, the architecture of Steam network is not. While this should not cause any endangerment (due to obvious reasons it needs to be closed-source for valve), users who focus on FOSS compatibility should use this system with caution and reconsider using it.
+
+    - [Arch Linux ARM](https://archlinuxarm.org/)
+
+        ```
+        name: archlinuxarm
+        package manager: custom
+        release system: rolling-release
+        default enviroment: none, diy
+        user-experience required: advanced
+        open-source: yes
+        anti-features?: no
+        ```
+
+        > :information_source: **INFO**: Arch Linux ARM is, as expected, an ARM adaptation of Arch Linux. It cannot thus be used on machines not using ARM CPUs, and the list of supported devices is [very small](https://archlinuxarm.org/platforms)
