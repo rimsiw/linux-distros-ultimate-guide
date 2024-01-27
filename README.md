@@ -22,6 +22,16 @@ This project of mine has one goal: to list and describe as many distros that I p
         - *intermediate*
         - *advanced*
         - *passionate / expert*
+    - **category**:
+        - *desktop*
+        - *live*
+        - *server*
+        - *education*
+        - *gaming*
+        - *mobile*
+        - *security*
+        - *other*
+        - *light*
 
 ## to-the-list
 
@@ -29,6 +39,7 @@ This project of mine has one goal: to list and describe as many distros that I p
 
     ```
     name: arch linux
+    category: desktop
     package manager: pacman
     release system: rolling-release
     default environment: none, diy
@@ -37,10 +48,13 @@ This project of mine has one goal: to list and describe as many distros that I p
     anti-features?: none
     ```
 
+    > ⭐ **RECOMMENDED**
+
     - [Manjaro](https://manjaro.org)
         
         ```
         name: manjaro
+        category: desktop
         package manager: pacman
         release system: special rolling-release
         default environment: gnome / kde plasma / xfce
@@ -55,6 +69,7 @@ This project of mine has one goal: to list and describe as many distros that I p
         
         ```
         name: endeavouros
+        category: desktop
         package manager: pacman
         release system: rolling-release
         default enviroment: many
@@ -64,12 +79,15 @@ This project of mine has one goal: to list and describe as many distros that I p
         pre-installed software: pamac
         ```
 
+        > ⭐ **RECOMMENDED**
+
         > :information_source: **INFO**: Possible default enviroments include: xfce, kde plasma, gnome, mate, cinnamon, budgie, lxqt, lxde, i3
     
     - [SteamOS 3.0+](https://store.steampowered.com/steamos/download?ver=steamdeck)
 
         ```
         name: steamos
+        category: gaming
         package manager: pacman
         release system: rolling-release
         default enviroment: kde plasma
@@ -89,6 +107,7 @@ This project of mine has one goal: to list and describe as many distros that I p
 
         ```
         name: archlinuxarm
+        category: desktop, mobile
         package manager: custom
         release system: rolling-release
         default enviroment: none, diy
@@ -103,6 +122,7 @@ This project of mine has one goal: to list and describe as many distros that I p
 
         ```
         name: garudalinux
+        category: gaming
         package manager: pacman
         release system: rolling-release
         default enviroment: many
@@ -120,6 +140,7 @@ This project of mine has one goal: to list and describe as many distros that I p
 
         ```
         name: artixlinux
+        category: desktop, light
         package manager: pacman
         release system: rolling-release
         default enviroment: none, diy
@@ -134,6 +155,7 @@ This project of mine has one goal: to list and describe as many distros that I p
 
         ```
         name: parabola
+        category: desktop, education, light
         package manager: modified pacman
         release system: rolling-release
         default enviroment: none / lxde
@@ -142,6 +164,42 @@ This project of mine has one goal: to list and describe as many distros that I p
         anti-features?: no
         ```
 
+        > ⭐ **RECOMMENDED**
+
         > ℹ️ **INFO**: Some packages which are considered non-FOSS may be not possible to install out-of-the-box, due to Libre and Free character of distribution. Due to this, some people may find Parabola lacking
 
         > ℹ️ **INFO**: Parabola uses special list of packages named [Parabola GNU/Linux-libre package database](https://www.parabola.nu/packages/)
+
+        > 👍 **SPECIAL**: Parabola is listed by Free Software Foundation as free software distribution
+
+    - [CachyOS](https://cachyos.org/)
+
+        ```
+        name: cachyos
+        category: desktop, light
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: many
+        user-experience required: amateur
+        open-source: yes
+        anti-features?: no
+        pre-installed packages: cachy-browser
+        ```
+
+        > ℹ️ **INFO**: Default desktop enviroments include: kde plasma, gnome, xfce, cutefish, i3, wayfire, lxqt, lxde, openbox, cinnamon, ukui, mate, budgie, qtile, hyprland and sway
+
+    - [AthenaOS](https://github.com/Athena-OS)
+
+        ```
+        name: athenaos
+        category: desktop, security, light, live, other
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: gnome
+        user-experience required: intermediate
+        open-source: yes
+        anti-features?: no
+        pre-installed software: athena-cyberhub, hackthebox-tools, pwnage-menu, blueteam-menu, readteam-menu, payload-to-dock, nist-feed
+        ```
+
+        > ℹ️ **INFO**: AthenaOS main target are mostly hackers and testers. If you are not an aspiring or experienced person who might benefit from this system, there is probably no need to install it
