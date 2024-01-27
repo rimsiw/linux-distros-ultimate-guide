@@ -44,7 +44,7 @@ This project of mine has one goal: to list and describe as many distros that I p
         package manager: pacman
         release system: special rolling-release
         default environment: gnome / kde plasma / xfce
-        user-experience required: intermediate
+        user-experience required: amateur
         open-source: yes
         anti-features?: no
         pre-installed software: pamac
@@ -98,3 +98,50 @@ This project of mine has one goal: to list and describe as many distros that I p
         ```
 
         > :information_source: **INFO**: Arch Linux ARM is, as expected, an ARM adaptation of Arch Linux. It cannot thus be used on machines not using ARM CPUs, and the list of supported devices is [very small](https://archlinuxarm.org/platforms)
+
+    - [GarudaLinux](https://garudalinux.org/)
+
+        ```
+        name: garudalinux
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: many
+        user-experience required: intermediate
+        open-source: yes
+        anti-features?: no
+        pre-installed software: garuda assistant, firedragon, chaotic-aur, garuda gamer
+        ```
+        
+        > :information_source: **INFO**: Garuda Linux is meant to be an Arch distribution specified for gaming purposes, for other special purposes, it is not advised to use it
+        
+        > :information_source: **INFO**: Default enviroments include: kde plasma, xfce, gnome, cinnamon, qtile, i3, sway and hyprland
+
+    - [Artix Linux](https://artixlinux.org/)
+
+        ```
+        name: artixlinux
+        package manager: pacman
+        release system: rolling-release
+        default enviroment: none, diy
+        user-experience required: advanced
+        open-source: yes
+        anti-features?: no
+        ```
+
+        > ℹ️ **INFO**: Artix Linux is meant to be a fork of Arch, but without systemd
+
+    - [Parabola](https://www.parabola.nu/)
+
+        ```
+        name: parabola
+        package manager: modified pacman
+        release system: rolling-release
+        default enviroment: none / lxde
+        user-experience required: passionate / expert
+        open-source: yes
+        anti-features?: no
+        ```
+
+        > ℹ️ **INFO**: Some packages which are considered non-FOSS may be not possible to install out-of-the-box, due to Libre and Free character of distribution. Due to this, some people may find Parabola lacking
+
+        > ℹ️ **INFO**: Parabola uses special list of packages named [Parabola GNU/Linux-libre package database](https://www.parabola.nu/packages/)
