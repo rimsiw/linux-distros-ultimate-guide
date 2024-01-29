@@ -9,7 +9,9 @@ This project of mine has one goal: to list and describe as many distros that I p
     - **anti-consumer practices**
     - **support of non-free software**
     - **paid**
+    - **paid features**
     - **not-transparent**
+    - **data collection**
 - *What is the review scale for categories?* \
 ***depending on category, these are those:***
     - **open-source**:
@@ -30,8 +32,8 @@ This project of mine has one goal: to list and describe as many distros that I p
         - *gaming*
         - *mobile*
         - *security*
-        - *other*
         - *light*
+        - *other*
 
 ## to-the-list
 
@@ -261,7 +263,57 @@ anti-features?: none
     default enviroment: gnome
     user-experience required: beginner
     open-source: partly
-    anti-features?: not-transparent, support of non-free software, anti-consumer practices
+    anti-features?: not-transparent, support of non-free software, anti-consumer practices, data collection
     ```
 
     > ⚠️ **WARNING**: Ubuntu is own by Canonical, a british company known for their anti-consumer practices. Please, if you value your privacy and security, DO NOT use plain Ubuntu
+
+    > ℹ️ **INFO**: Ubuntu comes in many flavours, including, for example, [Kubuntu](https://kubuntu.org/). While they technically are their own distributions, I won't be including them there
+
+- [Linux Mint](https://linuxmint.com/)
+
+    ```
+    name: linuxmint
+    base: ubuntu
+    category: desktop
+    package manager: apt
+    release system: stable
+    default enviroment: cinnamon / xfce / mate
+    user-experience required: beginner
+    open-source: yes
+    anti-features?: no
+    ```
+
+    > :star: **RECOMMENDED**
+
+- [Pop!_OS](https://pop.system76.com/)
+
+    ```
+    name: pop_os
+    base: ubuntu
+    category: desktop
+    package manager: apt
+    release system: stable
+    default enviroment: gnome
+    user-experience required: beginner
+    open-source: yes
+    anti-features?: no
+    ```
+
+- [ZorinOS](https://zorin.com/os/)
+
+    ```
+    name: zorin
+    base: ubuntu
+    category: desktop
+    package manager: apt
+    release system: stable
+    default enviroment: gnome, xfce
+    user-experience required: beginner
+    open-source: no
+    anti-features?: paid features, data collection, not-transparent
+    ```
+
+    > :warning: **WARNING**: If you value your privacy, PLEASE DO NOT use Zorin. Zorin shows signs of data collection, and their business model is about selling expensive paid plans with otherwise free features
+
+    > :warning: **WARNING**: ZorinOS is NOT open-source. I advise you to not use it
